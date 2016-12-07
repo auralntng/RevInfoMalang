@@ -1,13 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_kuliner"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl204132231.infomalang.KulinerActivity">
+    tools:context="id.sch.smktelkom_mlg.project.xirpl204132231.infomalang.WisataActivity">
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:scrollbars="none"
+        tools:ignore="UselessParent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/buttonback"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kembali"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageButton"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/kulinerq" />
+
+            <TextView
+                android:text="  Kota Malang memiliki banyak sekali jenis makanan mulai   dari yang klasik, sampai makanan modern.
+
+  Berikut adalah Daftar yang kami rekomendasikan!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text=" 1.Toko oen
+Toko Oen terletak di dekat alun-alun kota Malang, tepatnya di Jalan Jendral Basuki Rakhmad 5 Malang.
+Memasuki toko Oen kita disambut dengan spanduk ucapan selamat datang di Malang dalam bahasa Belanda.
+
+Di bawahnya ada tulisan tahun dibukanya toko ini, yaitu tahun 1930. Nuansa tempo doeloe bisa langsung kita rasakan setelah berada di dalam. Kursi-kursi rotan yang rendah dengan meja bundar dan bertaplak kotak-kotak adalah peninggalan masa lalu yang masih dipertahankan pemilik toko Oen.
+Hidangan favorit di toko Oen adalah es krim.
+Satu sendok bulat es krim harganya bisa mencapai Rp35.000. Tidak heran pengunjung toko ini kebanyakan dari kalangan menengah ke atas. Disana juga ada foto-foto lama kota Malang yang dipasang di didinding toko. Ada foto Gereja Katedral tahun 1920-an, foto toko Oen jadul, foto Bung Karno yang mengunjungi kota Malang, foto stasiun kereta api Malang, dan lain-lain.
+"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:text=" 1."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

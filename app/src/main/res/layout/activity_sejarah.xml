@@ -1,47 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sejarah"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl204132231.infomalang.SejarahActivity">
+    tools:context="id.sch.smktelkom_mlg.project.xirpl204132231.infomalang.WisataActivity">
 
-    <android.support.design.widget.AppBarLayout
-        android:id="@+id/app_bar"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/app_bar_height"
-        android:fitsSystemWindows="true"
-        android:theme="@style/AppTheme.AppBarOverlay">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:scrollbars="none"
+        tools:ignore="UselessParent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
-        <android.support.design.widget.CollapsingToolbarLayout
-            android:id="@+id/toolbar_layout"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:fitsSystemWindows="true"
-            app:contentScrim="?attr/colorPrimary"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed">
-
-            <android.support.v7.widget.Toolbar
-                android:id="@+id/toolbar"
-                android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                app:layout_collapseMode="pin"
-                app:popupTheme="@style/AppTheme.PopupOverlay" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
 
             <ImageView
-                android:id="@+id/imageFoto"
-                android:layout_width="match_parent"
+                android:layout_width="366dp"
                 android:layout_height="match_parent"
-                tools:src="@drawable/kuno"
-                android:fitsSystemWindows="true"
-                android:scaleType="centerCrop"
-                app:layout_collapseMode="parallax" />
+                android:id="@+id/imageButton"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/kuno"
+                android:layout_weight="0.15"
+               />
 
-        </android.support.design.widget.CollapsingToolbarLayout>
-    </android.support.design.widget.AppBarLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kota Malang memiliki sejarah panjang dalam sejarahnya, berikut ini adalah ringkasan dari kami mengenai Sejarah Kota Malang
+Check This Out!"
+                android:layout_marginLeft="2dp"/>
 
-    <include layout="@layout/content_sejarah" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+       Sejak masa purbakala Malang menjadi kawasan pemukiman. Nama Malang sampai saat ini masih diteliti asal-usulnya oleh para ahli sejarah.
 
-</android.support.design.widget.CoordinatorLayout>
+       Malangkuçeçwara yang tertulis di dalam lambang kota itu, menurut salah satu hipotesa merupakan nama sebuah bangunan suci. Nama bangunan suci itu sendiri diketemukan dalam dua prasasti Raja Balitung dari Jawa Tengah yakni prasasti Mantyasih tahun 907, dan prasasti 908 yakni diketemukan di satu tempat antara Surabaya-Malang.
+
+       Candi Jago dan Candi Kidal merupakan peninggalan zaman Kerajaan Singasari, yang berada di kecamatan Tumpang.
+Kecamatan Tumpang diduga merupakan tempat dimana bangunan suci tersebut berada.
+Dari prasasti tembaga yang ditemukan di perkebunan Bantaran, Wlingi, sebelah baratdaya Malang diperoleh satu bukti bahwa pemakaian nama Malang telah ada paling tidak sejak abad 12 Masehi.
+
+       Seperti halnya kebanyakan kota-kota lain di Indonesia pada umumnya, Kota Malang modern tumbuh dan berkembang setelah hadirnya administrasi kolonial Hindia Belanda. Contohnya adalah ''Ijen Boullevard'.  Kawasan perumahan itu sekarang menjadi monumen hidup dan seringkali dikunjungi oleh keturunan keluarga-keluarga Belanda yang pernah bermukim di sana.
+Pada masa penjajahan kolonial Hindia Belanda, daerah Malang dijadikan wilayah Gemente (Kota).
+
+       Semboyan kota malang adalah “Malang nominor, sursum moveor” yang artinya “Malang namaku, maju tujuanku”.
+Pada tahun 1964 semboyan tersebut diganti oleh  Prof. Dr. R. Ng. Poerbatjaraka menjadi Malnag Kucecwara. Nama Malangkuçeçwara terdiri atas 3 kata, yakni mala yang berarti kecurangan, kepalsuan, dan kebatilan, angkuça yang berarti menghancurkan atau membinasakan dan Içwara yang berarti Tuhan.
+Sehingga, Malangkuçeçwara berarti Tuhan telah menghancurkan kebatilan.
+"
+                android:layout_marginLeft="2dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
