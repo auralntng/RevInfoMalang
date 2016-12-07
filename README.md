@@ -11,6 +11,9 @@ Aplikasi Info Malang juga merupakan media promosi. Karena, dengan semakin banyak
 Aplikasi ini berbasis offline. Sehingga pengguna dapat lebih mudah menggunakannya.
 
 
+#Video Aplikasi
+
+https://www.youtube.com/watch?v=a2EDQ5wwuVw
 
 # Nama  Anggota : 
 
