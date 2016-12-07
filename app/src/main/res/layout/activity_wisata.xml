@@ -1,13 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_wisata"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.project.xirpl204132231.infomalang.WisataActivity">
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:scrollbars="none"
+        tools:ignore="UselessParent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageButton"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/wisataq" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berikut adalah Rekomendasi Wisata di Kota Malang Versi InfoMalang!"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+            Pantai"
+            android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A.	Balekambang
+
+Pantai Balekambang terletak di wilayah Dusun Sumber Jambe, Desa Srigonco, Kecamatan Bantur, Kabupaten Malang. Nama Balekambang kian dikenal setelah secara resmi dibuka sebagai salah satu tempat wisata oleh Bupati Malang, Eddy Slamet pada 1983
+
+Daya tarik Balekambang utamanya tentu panorama alam, gelombang ombak yang memanjang hampir dua kilometer, serta hamparan pasir nan luas. Area pasir putih terlihat bersih dari sampah maupun kotoran sehingga cukup nyaman bagi pengunjung untuk bermain dan berolahraga
+
+Akses menuju Balekambang sudah mudah dan nyaman karena jalannya sudah beraspal mulus, pengunjung hanya kesulitan ketika berada di kawasan Jurang Mayit karena tanjakan yang menikung tajam. hanya butuh waktu tak lebih dari 30 menit dari kota Kecamatan Bantur ke Balekambang.
+
+                            B.	Goa cina
+Pantai Goa Cina terletak di Dusun Tumpak Awu, Desa Sitiarjo, Kecamatan Sumbermanjing Wetan, Kabupaten Malang
+Luas area Pantai Goa China tidak begitu luas, namun keberadaan tiga pulau yang berada di tengah-tengah pantai membuat pandangan lebih indah. Tiga pulau itu adalah Pulau Bantengan, Pulau Goa China dan Pulau Nyonya. Di pinggir pantai ini cukup asri, pohon-pohon berbagai jenis seperti pohon cembirit, ketapang, dan pohon jenis tutup berjajar rapi di area pinggir pantai. Pohon-pohon ini cukup meneduhkan pengunjung, apalagi di bibir pantai yang cukup jernih hingga kelihatan batu karangnya.
+
+Dari Pantai Bajulmati, Desa Gajahrejo, Kecamatan Gedangan menuju Pantai Goa China ini hanya perlu waktu 15 menit saja karena kedua pantai ini hanya berjarak tak lebih dari 7 km. Aksesnya pun sangat mudah karena melewati jalur lingkar selatan (JLS) dengan aspal yang mulus. Terdapat petunjuk arah dan rambu yang akan memandu pengunjung untuk menuju lokasi. Tetapi Anda harus tetap berhati-hati karena jalannya berkelok-kelok dan berada di sisi jurang.
+
+                            C.	Segara anak
+
+Pulau sempu adalah cagar alam yang di lindungi oleh pemerintah secara geografis terletak bujur timur dan  lintang selatan atau terletak di sumber manjing wetan kab.Malang Jawa Timur
+pulau ini terdapat pantai yang tersembunyi yaitu segara anakan untuk menyebrang ke pulau sempu kita harus ke balai konservasi terlebih dahulu.
+Kita bisa menyewa kapal yang cukup menggangkut 10-15 orang dan harga sewa untuk kapal tersebut 100rb-150rb.
+kita harus mempersiapkan kondisi kita untuk menuju segara anakan jperjalanan  memakan waktu kurang lebih 2-2,5 jam dan jangan lupa harus membawa bekal minum atau makananan ringan sebab di segara anakan kita tidak menjumpai orang jualan dan jangan lupa membuang sampah pada tempatnya atau sampah kita bawa pulang.
+Wisatawan yang hendak berwisata ke Pulau Sempu bisa Anda mulai perjalanan dari kota Malang, dari kota Malang Anda bisa melewati jalur yang menuju kecamatan Sumbermanjing wetan, tepatnya berada diwahana wisata pantai Sendang Biru, akan tetapi untuk mencapai pulau Sempu ini Anda diharuskan untuk menggunakan perahu motor, karena tidak ada akses jalan darat menuju pulau tersebut.
+
+
+                            D.	Banyu anjlok
+
+Banyu Anjlok terletak di Dusun Lenggoksono Desa Purwodadi, Kecamatan Tirtoyudo Kabupaten Malang. Banyu anjlok merupakan satu-satunya air terjun yang mengarah langsung ke laut, tepatnya di pantai Lenggoksono. Jadi bisa dipastikan ketika Anda mengunjungi tempat wisata ini akan disuguhkan dengan panorama keindahan laut serta derasanya air terjun yang percikan airnya langsung membasahi tubuh.
+Di pantai Lenggoksono ini juga terkenal akan ikannya yang masih banyak dan beragam jenis mulai dari jenis  lobster, cumi-cumi, layur, cakalang,dan juga layar. Dan ternyata di pantai Lenggoksono ini juga menjadi tempat konservasi lobster, ada banyak lobster yang di budidayakan di sisni diantaranya adalah lobster mutiara, lobster pasir, dan lobster batu.
+Untuk mencapai pantai ini dari Kota Malang kita bisa menempuh dari Kecamatan Dampit menuju Kecamatan Tirtoyudo, lalu berbelok ke kanan di pertigaan Tangsi, Desa Tirtoyudo. Dari pertigaan ini posisi Pantai Lenggoksono masih sekitar 30 kilometer. Kondisi jalan dari Tangsi Tirtoyudo menuju Lenggoksono Purwodadi sangat mulus beraspal, hanya ruas jalan sangat sempit. Sepanjang 30 kilometer itu jalanan berkelok-kelok. Jalanan belokan tajam disertai menanjak dan menurun yang curam. Bahkan terdapat jurang curam di sisi kanan dan kiri jalan. Sekitar lima kilometer menjelang masuk Desa Purwodadi kondisi jalan mulai rusak, namun sejumlah jalan ada yang sudah dicor hingga ke bibir pantai. Sepanjang perjalanan kita bisa menyaksikan perkebunan cengkeh dengan pohonnya yang tinggi sampai 15 meter. Hal itu tidak mengherankan karena Desa Purwodadi merupakan sentra produsen cengkeh terbesar di Malang Raya.
+"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+
+                COBAN
+
+                A.	Rondo
+Air Terjun Coban Rondo merupakan air terjun yang terletak di Kecamatan Pujon, Kota Batu, Kabupaten Malang, Jawa Timur. Air terjun ini mudah dijangkau oleh kendaraan umum.
+Akses yang paling mudah adalah melalui jalan raya dari Malang ke Batu dari sebelah timur atau dari Kediri ke Pare menuju Malang dari arah barat.
+
+Air terjun setinggi 84 meter ini berasal dari sumber mata air Cemoro Dudo. Air terjun Coban Rondo ini mulai dibuka untuk umum sejak tahun 1980. Panorama klasik air tejun yang dibalut dengan keindahan alam dan disempurnakan dengan udara pegunungan yang masih sangat alami ini memang menjadi mangnet yang luar biasa bagi para wisatawan.
+
+Selain dapat menikmati keindahan dan keeksotikan air terjun Coban Rondo, di sekitar lokasi ini juga terdapat beberapa wahana permainan yang dapat Anda pilih, diantaranya: Fun Tubing, Paint Ball, Labirin, Sepeda Gunung, Berkuda. Kereta Kelinci dll
+
+Akses yang paling mudah adalah melalui jalan raya dari Malang ke Batu dari sebelah timur atau dari Kediri ke Pare menuju Malang dari arah barat.
+
+
+                B.	Pelangi
+Wisata Air Terjun Coban Pelangi terletak di desa Gubukklakah, Kecamatan Poncokusumo, Kabupaten Malang, Jawa Timur. Dari kota malang jaraknya sekitar 30 km ke arah timur, dengan kendaraan dapat ditempuh selama 1 jam.
+Memasuki area wisata coban pelangi, kita akan dibawa kejalan setapak berundak menurun cukup terjal. Sedangkan jarak yang akan ditempuh sampai lokasi air terjun, sekitar 1 km.
+air terjun coban pelangi jatuh dari ketinggian 110 m. Disekiling air terjun  merupakan tebing batu karang yang menjulang tinggi. Hawanya sejuk, ditambah percikan air dingin menyebar disekitar lokasi. Selain air terjunnya yang eksotik, ada keindahann lain yang menjadi fenomena disini, yaitu munculnya pelangi. Untuk bisa menyaksikan fenomena pelangi, tidak bisa ditemukan setiap saat. Karena pelangi hanya muncul saat cahaya matahari menyeruak masuk membias diantara percikan air terjun. Waktu yang tepat biasanya sekitar pukul 10.00 pagi hingga siang hari, ketika cuaca cerah. Fenomena pelangi inilah yang akhirnya di jadikan nama air terjun Coban Pelangi.
+
+
+
+"/>
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
