@@ -1,9 +1,14 @@
 package id.sch.smktelkom_mlg.project.xirpl204132231.infomalang;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import id.sch.smktelkom_mlg.project.xirpl204132231.infomalang.intro.Config;
+import id.sch.smktelkom_mlg.project.xirpl204132231.infomalang.intro.DefaultIntro;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,5 +41,25 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this , BudayaActivity.class));
             }
         });
+        Thread t=new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                SharedPreferences sharedPreferences = getSharedPreferences(Config.FLAG, Context.MODE_PRIVATE);
+
+                if(sharedPreferences.getBoolean(Config.FLAG,true)){
+
+
+                    startActivity(new Intent(MainActivity.this,DefaultIntro.class));
+
+                    SharedPreferences.Editor e=sharedPreferences.edit();
+
+                    e.putBoolean(Config.FLAG,false);
+
+                    e.apply();
+                }
+            }
+        });
+        t.start();
     }
 }

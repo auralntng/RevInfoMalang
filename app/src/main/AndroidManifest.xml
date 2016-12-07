@@ -19,6 +19,12 @@
         <activity android:name=".BudayaActivity" />
         <activity android:name=".WisataActivity" />
         <activity android:name=".SejarahActivity"></activity>
+        <activity
+            android:name=".intro.DefaultIntro"
+            android:label="Intro Label"
+            android:theme="@style/FullscreenTheme">
+
+        </activity>
     </application>
 
 </manifest>
