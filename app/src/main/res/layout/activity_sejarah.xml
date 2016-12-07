@@ -21,13 +21,9 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:weightSum="1">
-            <Button
-                android:id="@+id/buttonback"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Kembali"/>
+
             <ImageView
-                android:layout_width="366dp"
+                android:layout_width="361dp"
                 android:layout_height="match_parent"
                 android:id="@+id/imageButton"
                 android:layout_alignParentTop="true"
@@ -44,27 +40,15 @@
                 android:text="Kota Malang memiliki sejarah panjang dalam sejarahnya, berikut ini adalah ringkasan dari kami mengenai Sejarah Kota Malang
 Check This Out!"
                 android:layout_marginLeft="7dp"
-                android:layout_marginRight="3dp"/>
+                android:layout_marginRight="3dp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center" />
 
             <TextView
+                android:padding="6dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="
-       Sejak masa purbakala Malang menjadi kawasan pemukiman. Nama Malang sampai saat ini masih diteliti asal-usulnya oleh para ahli sejarah.
-
-       Malangkuçeçwara yang tertulis di dalam lambang kota itu, menurut salah satu hipotesa merupakan nama sebuah bangunan suci. Nama bangunan suci itu sendiri diketemukan dalam dua prasasti Raja Balitung dari Jawa Tengah yakni prasasti Mantyasih tahun 907, dan prasasti 908 yakni diketemukan di satu tempat antara Surabaya-Malang.
-
-       Candi Jago dan Candi Kidal merupakan peninggalan zaman Kerajaan Singasari, yang berada di kecamatan Tumpang.
-Kecamatan Tumpang diduga merupakan tempat dimana bangunan suci tersebut berada.
-Dari prasasti tembaga yang ditemukan di perkebunan Bantaran, Wlingi, sebelah baratdaya Malang diperoleh satu bukti bahwa pemakaian nama Malang telah ada paling tidak sejak abad 12 Masehi.
-
-       Seperti halnya kebanyakan kota-kota lain di Indonesia pada umumnya, Kota Malang modern tumbuh dan berkembang setelah hadirnya administrasi kolonial Hindia Belanda. Contohnya adalah ''Ijen Boullevard'.  Kawasan perumahan itu sekarang menjadi monumen hidup dan seringkali dikunjungi oleh keturunan keluarga-keluarga Belanda yang pernah bermukim di sana.
-Pada masa penjajahan kolonial Hindia Belanda, daerah Malang dijadikan wilayah Gemente (Kota).
-
-       Semboyan kota malang adalah “Malang nominor, sursum moveor” yang artinya “Malang namaku, maju tujuanku”.
-Pada tahun 1964 semboyan tersebut diganti oleh  Prof. Dr. R. Ng. Poerbatjaraka menjadi Malnag Kucecwara. Nama Malangkuçeçwara terdiri atas 3 kata, yakni mala yang berarti kecurangan, kepalsuan, dan kebatilan, angkuça yang berarti menghancurkan atau membinasakan dan Içwara yang berarti Tuhan.
-Sehingga, Malangkuçeçwara berarti Tuhan telah menghancurkan kebatilan.
-"
+                android:text="@string/seeejarah"
                 android:layout_marginLeft="2dp"/>
         </LinearLayout>
     </ScrollView>

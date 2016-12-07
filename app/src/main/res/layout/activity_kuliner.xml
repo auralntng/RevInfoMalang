@@ -21,11 +21,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:weightSum="1">
-            <Button
-                android:id="@+id/buttonback"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Kembali"/>
+
 
             <ImageView
                 android:layout_width="match_parent"
@@ -52,26 +48,11 @@ Berikut adalah Daftar yang kami rekomendasikan!"
                 android:layout_marginLeft="7dp"
                 android:layout_marginRight="3dp"/>
 
-            <TextView
-                android:layout_marginLeft="7dp"
-                android:layout_marginRight="3dp"
-                android:text=" 1.Toko oen
-Toko Oen terletak di dekat alun-alun kota Malang, tepatnya di Jalan Jendral Basuki Rakhmad 5 Malang.
-Memasuki toko Oen kita disambut dengan spanduk ucapan selamat datang di Malang dalam bahasa Belanda.
 
-Di bawahnya ada tulisan tahun dibukanya toko ini, yaitu tahun 1930. Nuansa tempo doeloe bisa langsung kita rasakan setelah berada di dalam. Kursi-kursi rotan yang rendah dengan meja bundar dan bertaplak kotak-kotak adalah peninggalan masa lalu yang masih dipertahankan pemilik toko Oen.
-Hidangan favorit di toko Oen adalah es krim.
-Satu sendok bulat es krim harganya bisa mencapai Rp35.000. Tidak heran pengunjung toko ini kebanyakan dari kalangan menengah ke atas. Disana juga ada foto-foto lama kota Malang yang dipasang di didinding toko. Ada foto Gereja Katedral tahun 1920-an, foto toko Oen jadul, foto Bung Karno yang mengunjungi kota Malang, foto stasiun kereta api Malang, dan lain-lain.
-"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView2"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentStart="true"
-                android:padding="2dp" />
 
             <TextView
-                android:text=" 1."
+                android:padding="7dp"
+                android:text="@string/makan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView4"

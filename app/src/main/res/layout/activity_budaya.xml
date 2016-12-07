@@ -22,11 +22,7 @@
             android:orientation="vertical"
             android:weightSum="1">
 
-            <Button
-                android:id="@+id/buttonback"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Kembali"/>
+
 
             <ImageView
                 android:layout_width="match_parent"
@@ -40,19 +36,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1.	TOPENG MALANGAN
-
-Topeng Malangan merupakan tradisi budaya dan religiusitas masyarakat Jawa semenjak Kerajaan Kanjuruhan yang dipimpin oleh Raja Gajayana semasa abad ke 8 M. Ini bisa penulis tafsirkan tentang fungsi Candi Badut (arti badut = tontonan) ini menunjukan bahwa saat itu candi berfungsi untuk tontonan “pendidikan yang disampaikan oleh Petinggi / Raja”. Sedangkan Raja Gajayana ini juga mahir menarikan tarian Topeng. Coba anda cermati dari bentuk bangunan candi.
-
-“Kesenian Topeng tidak diperuntukkan acara acara kesenian seperti sekarang ini. Topeng waktu itu yang terbuat dari batu adalah bagian dari acara persembahyangan. Barulah pada masa Raja Erlangga, topeng dikontruksi menjadi kesenian tari. Topeng digunakan menari waktu itu untuk mendukung fleksibilitas si penari. Sebab waktu itu sulit untuk mendapatkan riasan (make up), untuk mempermudah riasan, maka para penari tinggal mengenakan topeng di mukanya”
-
-
-.	Bahasa walikan
-
-Boso Walikan menjadi ciri khas warga Malang. Sejarah Boso Walikan dimulai pada saat jaman perjuangan Gerilya Rakyat Kota (GRK).
-Para pejuang pada saat itu menggunakan Boso Walikan sebagai alat komunikasi antar sesama pejuang serta sebagai identitas untuk mengenali lawan maupun kawan.
-Pada saat itu, banyak sekali mata-mata Belanda yang berasal dari orang pribumi sendiri. Otomatis, komunikasi dalam Bahasa Jawa menjadi hal yang riskan karena para mata-mata itu juga pasti akan paham lantas akan membocorkannya pada pihak Belanda. Karena itu para pejuang menggunakan Boso Walikanuntuk mengelabui para mata-mata sekaligus untuk meminimalisir bocornya strategi perjuangan para gerilyawan.
-"
+                android:text="@string/budaya"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
     </ScrollView>
