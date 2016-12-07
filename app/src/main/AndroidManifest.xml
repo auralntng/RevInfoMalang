@@ -15,10 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SejarahActivity" />
         <activity android:name=".WisataActivity" />
         <activity android:name=".KulinerActivity" />
-        <activity android:name=".BudayaActivity"></activity>
+        <activity android:name=".BudayaActivity" />
+        <activity
+            android:name=".SejarahActivity"
+            android:label="@string/title_activity_sejarah"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
